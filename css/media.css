@@ -1,0 +1,269 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1200px) {
+.first_screen .item{
+	width: 50%;
+}
+.first_screen .item:first-child{
+	margin-left: 0;
+}
+.question_sec .block .item:first-child .text_wrap_cont:nth-child(2){
+	width: auto;
+}
+.choice_sec .item{
+	width: 280px;
+}
+.about_company .block{
+    padding: 22px 30px 31px;	
+}
+footer{
+	height: auto;
+	background-repeat: repeat;
+}
+footer .item{
+	width: 33%;
+}
+.logo{
+	width: 200px;
+}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.toggle_mnu {
+    height: 36px;
+    border: none;
+    display: block;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    text-align: center;}
+  .toggle_mnu span {
+    display: block; }
+
+.sandwich {
+  width: 28px;
+  height: 28px;
+  top: 8px;
+  margin: auto;
+  z-index: 200; 
+}
+
+.sw-topper {
+  position: relative;
+  top: 0;
+  width: 28px;
+  height: 3px;
+  background: #fff;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-transition: -webkit-transform 0.5s, top 0.2s;
+          transition: transform 0.5s, top 0.2s;
+  display: block; }
+
+
+
+.sw-bottom {
+  position: relative;
+  width: 28px;
+  height: 3px;
+  top: 6.6px;
+  background: #fff;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-transition: -webkit-transform 0.5s, top 0.2s;
+          transition: transform 0.5s, top 0.2s;
+  -webkit-transition-delay: 0.2s, 0s;
+          transition-delay: 0.2s, 0s; }
+
+.sw-footer {
+  position: relative;
+  width: 28px;
+  height: 3px;
+  top: 13.5px;
+  background: #fff;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s; }
+
+.sandwich.active .sw-topper {
+  top: 9px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+.sandwich.active .sw-bottom {
+  top: 6px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+.sandwich.active .sw-footer {
+  opacity: 0;
+  top: 0;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+					 transform: rotate(180deg); }
+
+
+.top_mnu{
+    position: absolute;
+    right: 0;
+    top: 54px;
+    width: 50%;
+    background-color: #4d5bad;
+    display: none;
+    z-index: 99;
+}
+.top_mnu ul li{
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+h2.title{
+	line-height: 38px;
+}
+.question_sec .block .item{
+	width: 100%;
+}
+.question_sec .block .item:first-child .text_wrap_cont:nth-child(2) h2{
+	margin-bottom: 30px;
+}
+.choice_sec .item{
+    width: 320px;
+    margin: 0 auto 30px;	
+}
+.about_company .block .item{
+	width: 100%;
+}
+.form_sec .item:last-child{
+	width: 100%;
+}
+.form_sec .btn{
+	margin: 30px auto;
+}
+.soc_icons a{
+	margin-right: 20px;
+}
+.phone_foot a, .adress_foot{
+	font-size: 18px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.first_screen .item:first-child,.first_screen .item:nth-child(2){
+	width: 100%;
+}
+.btn{
+	width: 100%;
+	font-size: 27px;
+}
+.first_screen{
+	height: 980px;
+}
+.bottom_item{
+	width: 100%;
+}
+.form_sec .btn{
+	width: 100%;
+}
+.block_wrap::before{
+	display: none;
+}
+.text_wrap_cont{
+	padding-left: 0;
+}
+.choice_sec .item li{
+	font-size: 13px;
+}
+.about_company .block{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.top_item p{
+	padding: 23px 0;
+}
+.owl-prev,.owl-next{
+	display: none;
+}
+.form_title{
+	font-size: 70px;
+}
+.form_sec .block{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.test_product{
+	text-align: center;
+	display: block;
+}
+footer .item{
+	width: 100%;
+	text-align: center;
+}
+.phone_foot a, .adress_foot{
+	text-align: center;
+}
+.bottom_mnu{
+	text-align: center;
+}
+footer{
+	padding: 20px 0;
+}
+.popup{
+	right: 30px;
+}
+h2.title{
+	font-size: 37px;
+}
+.top_mnu{
+	top: 75px;
+	width: 100%;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.top_mnu ul{
+		display: block !important;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

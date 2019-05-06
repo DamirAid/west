@@ -1,0 +1,45 @@
+@font-face {
+	font-family: "MontserratMedium";
+	src: url("../fonts/MontserratMedium/MontserratMedium.eot");
+	src: url("../fonts/MontserratMedium/MontserratMedium.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MontserratMedium/MontserratMedium.woff") format("woff"),
+			 url("../fonts/MontserratMedium/MontserratMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MontserratBold";
+	src: url("../fonts/MontserratBold/MontserratBold.eot");
+	src: url("../fonts/MontserratBold/MontserratBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MontserratBold/MontserratBold.woff") format("woff"),
+			 url("../fonts/MontserratBold/MontserratBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "CaveatBold";
+	src: url("../fonts/CaveatBold/CaveatBold.eot");
+	src: url("../fonts/CaveatBold/CaveatBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/CaveatBold/CaveatBold.woff") format("woff"),
+			 url("../fonts/CaveatBold/CaveatBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RalewayMedium";
+	src: url("../fonts/RalewayMedium/RalewayMedium.eot");
+	src: url("../fonts/RalewayMedium/RalewayMedium.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RalewayMedium/RalewayMedium.woff") format("woff"),
+			 url("../fonts/RalewayMedium/RalewayMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OswaldSemiBold";
+	src: url("../fonts/OswaldSemiBold/OswaldSemiBold.eot");
+	src: url("../fonts/OswaldSemiBold/OswaldSemiBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/OswaldSemiBold/OswaldSemiBold.woff") format("woff"),
+			 url("../fonts/OswaldSemiBold/OswaldSemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
